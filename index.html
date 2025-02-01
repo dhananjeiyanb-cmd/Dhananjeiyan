@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Dhananjeiyan B</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background: #f4f4f9;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      background: linear-gradient(135deg, #007ACC, #4D5FFF);
+      color: white;
+      padding: 50px 20px;
+      animation: slideDown 1.5s ease-out;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    nav {
+      background: #007ACC;
+      text-align: center;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      margin: 20px auto;
+      max-width: 900px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+      animation: fadeInUp 1.5s ease-in;
+    }
+
+    h2 {
+      color: #007ACC;
+      margin-bottom: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill-badge {
+      background: #007ACC;
+      color: white;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideDown {
+      0% { opacity: 0; transform: translateY(-100px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Dhananjeiyan B</h1>
+  <p>Assistant Professor & Cloud Architect | Erode, Tamil Nadu</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Hello, I am Dhananjeiyan B, a passionate Assistant Professor with over a decade of experience in Computer Science & Cloud Architecture. I am dedicated to teaching and innovative projects in the field of technology.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-list">
+    <span class="skill-badge">Python</span>
+    <span class="skill-badge">PHP</span>
+    <span class="skill-badge">Java</span>
+    <span class="skill-badge">C#</span>
+    <span class="skill-badge">Cloud Computing</span>
+    <span class="skill-badge">AI Tools (ChatGPT, DALL-E)</span>
+    <span class="skill-badge">Machine Learning</span>
+    <span class="skill-badge">Web Development</span>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <ul>
+    <li><strong>Cloud Optimization Platform:</strong> Developed a cloud resource management platform for Zigma Software using AI algorithms.</li>
+    <li><strong>AI Learning Assistant:</strong> Built an AI-based chatbot for educational institutions to assist students in academic queries.</li>
+    <li><strong>Web Portal for JKKN College:</strong> Led the development of a student and faculty management portal.</li>
+  </ul>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="grid">
+    <div class="contact-info">
+      <h3>Assistant Professor</h3>
+      <p><strong>JKKN College of Engineering & Tech</strong> (09-2021 to 11-2024)</p>
+      <p>Successfully guided academic and technical advancements for 4 years.</p>
+    </div>
+    <div class="achievements">
+      <h3>Cloud Architect</h3>
+      <p><strong>Zigma Software</strong> (12-2015 to 12-2020)</p>
+      <p>Implemented cloud solutions for enterprise clients.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:dhananjeiyanb@gmail.com">dhananjeiyanb@gmail.com</a></p>
+  <p>Phone: 8675338406</p>
+  <p>Address: 76/B Gurunatha Gounder St, Sabari Nivas, Bhavani, Erode-638301</p>
+</section>
+
+<footer>
+  <p>Designed by Dhananjeiyan B | Updated on 04-11-2024</p>
+</footer>
+
+</body>
+</html>
